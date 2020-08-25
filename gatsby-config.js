@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-fontawesome-css`],
+  plugins: ['gatsby-plugin-fontawesome-css', 'gatsby-plugin-sass'],
 }
