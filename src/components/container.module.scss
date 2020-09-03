@@ -1,0 +1,18 @@
+$height-margin: 100px;
+
+.container {
+    margin: $height-margin auto;
+    max-width: 600px;
+    border: 1px solid black;
+    min-height: calc(100% - 2*#{$height-margin});
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.container img {
+    max-width: 80%;
+}
+
+.container h2 {
+    font-weight: 300;
+}
