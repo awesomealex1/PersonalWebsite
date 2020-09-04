@@ -1,0 +1,17 @@
+.project {
+    margin: 100px 0;
+}
+
+.project p {
+    margin: 4px 0;
+}
+
+.project img {
+    max-width: 80%;
+    transition: max-width 0.2s;
+}
+
+.project img:hover {
+    max-width: 83%;
+    transition: max-width 0.2s;
+}
