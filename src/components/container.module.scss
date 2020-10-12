@@ -1,5 +1,6 @@
 $height-margin: 100px;
 
+@media (min-width: 600px) {
 .container {
     margin: $height-margin auto;
     max-width: 600px;
@@ -7,6 +8,18 @@ $height-margin: 100px;
     min-height: calc(100% - 2*#{$height-margin});
     border-radius: 6px;
     padding: 10px;
+}
+}
+
+@media (max-width: 600px) {
+.container {
+    margin: 0px auto;
+    max-width: 600px;
+    border: 1px solid black;
+    min-height: calc(100% - 2*0px);
+    border-radius: 6px;
+    padding: 10px;
+}
 }
 
 .container h2 {
