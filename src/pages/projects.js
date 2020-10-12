@@ -13,7 +13,7 @@ export default function Projects() {
             <Link to="/"> (or go back)</Link>
             </h1>
             
-            <Project name="Search Algorithm Visualiser" link="https://alexmurphy.me/SearchAlgorithm/" image={Search} description="
+            <Project name="Search Algorithm Visualiser" link="https://awesomealex1.github.io/Search/" image={Search} description="
             A website that visualises search algorithms (Depth First Search, Breadth First Search, A* Search). Features include a resizable grid, possibility to add walls, move start and endpoints and change speed of algorithm. Built with React. " 
             github="https://github.com/awesomealex1/Search"></Project>
 
