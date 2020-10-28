@@ -13,9 +13,9 @@ export default function Home() {
 			<p>Hi I'm Alex, a computer science student at the University of Edinburgh.</p>
 			<p>Take a look at some of my <Link to="projects/"><div className="custom-link">Projects</div></Link></p>
 			<div class="icon-links-container">
-			<CustomIcon href="hhttps://github.com/awesomealex1" icon={faGithub} color={icon_color} text="Github"></CustomIcon>
+			<CustomIcon href="https://github.com/awesomealex1" icon={faGithub} color={icon_color} text="Github"></CustomIcon>
 			<CustomIcon href="https://www.linkedin.com/in/alexander-murphy-5995871a6/" icon={faLinkedin} color={icon_color} text="Linkedin"></CustomIcon>
-			<CustomIcon href="hhttps://github.com/awesomealex1" icon={faPortrait} color={icon_color} text="Resume"></CustomIcon>
+			<CustomIcon href="Resume.pdf" icon={faPortrait} color={icon_color} text="Resume"></CustomIcon>
 			</div>
 		</Container>
 	);
